@@ -21,14 +21,12 @@ nav{
 }
 
 header{
-    background-color: brown
-}
-
-.header-h1{
-    font-size: 6ex
-}
-.header-h2{
-    font-size: 5ex
+    background-image: url(https://images.unsplash.com/photo-1521364577880-a15e92cbff6f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1e79175623d7b4885e186ce0d6583c58&auto=format&fit=crop&w=1950&q=80);
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
 .main-title{
@@ -38,13 +36,36 @@ header{
     padding: 1.5rem;
 }
 
-.img {
+.img-logo{
+    width: 14ex;
+
+}
+.img-rol {
     border-radius: 50%;
+    height: 10rem;
+    filter: grayscale(100%);
+}
+.img-rol:hover{
+    filter: grayscale(60%);  
+}
+
+.img {
+    border-radius: 20%;
     height: 10rem;
     width: 10rem;
 }
-.commentary-icon{
+.img-game {
+    border-radius: 10%;
+    height: 10rem;
+    /* width: 18ex; */
+}
+.carousel-icon{
     text-align: right;
+}
+.icon{
+    font-size: 5ex;
+    text-align: right;
+    color: rgba(245, 245, 245, 0.226)
 }
 
 .footer-title{
@@ -59,7 +80,29 @@ header{
     padding: 0.8rem;
 }
 
+
+h2{
+    font-size: 4ex
+}
+h3{
+    color: white;
+    font-size: 3ex;
+}
+h4{
+    color: white;
+    font-size: 2ex;
+}
+h4:hover {
+    color: #3DD0D8
+}
+h5{
+    color: #A8B7D9;
+    font-size: 1.8ex;
+}
 h6{
     margin-bottom: 0rem;
     font-size: 1.7ex
+}
+p{
+    font-style: oblique 
 }
