@@ -30,6 +30,7 @@ header{
     background-size: cover;
     position: relative;
 }
+
 .header-text{
     margin-top: 0ex;
     position: absolute;
@@ -49,14 +50,36 @@ header{
     color: #3DD0D8;
     
 }
+.last-video{
+    /* margin-top: 0ex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
+    position: relative;
+    padding-bottom: 56.25%; /* 16/9 ratio */
+    padding-top: 30px; /* IE6 workaround*/
+    height: 0;
+    overflow: hidden;
+}
+
+.last-video iframe, .last-video object, .last-video embed {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
 .img-last{
     height: 28ex;
 }
 
 
 iframe{
-    width: 32ex;
-    height: 24ex;
+    width: 40ex;
+    height: 30ex;
 }
 .main-title{
     padding: 3rem;
@@ -151,8 +174,8 @@ iframe{
     /* width: 100px; */
     height: 0;
     border-bottom: 10ex solid rgba(0, 4, 255, 0.24); 
-    border-left: 2ex solid transparent; 
-    border-right: 2ex solid transparent; 
+    /* border-left: 2ex solid transparent; 
+    border-right: 2ex solid transparent;  */
 }
 
 h2{
