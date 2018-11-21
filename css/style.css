@@ -21,18 +21,43 @@ nav{
 }
 
 header{
-    background-image: url(https://bnetcmsus-a.akamaihd.net/cms/gallery/LO0AO02BH7931533575177140.jpg);
+    background-image: url("../images/image-header.jpg");
     -webkit-filter: grayscale(80%);
     filter: grayscale(80%);
-    height: 50%;
+    height: 90ex;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
 }
+.header-text{
+    margin-top: 0ex;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+}
+.last{
+    background-image: url(https://bnetcmsus-a.akamaihd.net/cms/gallery/LO0AO02BH7931533575177140.jpg);
+    -webkit-filter: grayscale(50%);
+    filter: grayscale(50%)
+}
+
+.last-icon:hover{
+    color: #3DD0D8;
+    
+}
+.img-last{
+    height: 28ex;
+}
 
 
-
+iframe{
+    width: 32ex;
+    height: 24ex;
+}
 .main-title{
     padding: 3rem;
 }
@@ -65,7 +90,7 @@ header{
 }
 .img-carousel{
     border-radius: 50%;
-    width: 12ex;
+    height: 14ex;
     filter: grayscale(100%);
 }
 .carousel-icon{
@@ -95,7 +120,8 @@ header{
     color: #3DD0D8  
 }   
 .carousel-p{
-    font-size: 3ex;
+    font-size: 2.5ex;
+    margin-bottom: 0rem;
     padding: 2ex;
     padding-right: 8ex;
     padding-left: 8ex;
@@ -148,7 +174,7 @@ h5{
     font-size: 1.8ex;
 }
 h6{
-    margin-bottom: 0rem;
+    margin-bottom: 0ex;
     font-size: 1.6ex
 }
 p{
